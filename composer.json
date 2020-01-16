@@ -17,5 +17,12 @@
         "psr-4": {
             "Milen\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Milen\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
